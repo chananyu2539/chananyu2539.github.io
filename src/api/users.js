@@ -33,7 +33,6 @@ export default {
   checkLoggedIn () {
     Vue.$http.get('/users/check_signed_in.json')
     .then(function (response) {
-      store.dispatch('login')
     })
     .catch(function (response) {
       store.dispatch('logout')
