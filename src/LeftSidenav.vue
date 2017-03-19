@@ -1,7 +1,7 @@
 <template lang="html">
   <el-menu theme="dark" class="el-menu-demo" mode="horizontal">
-    <el-menu-item index="1"><a href="homework2/#/posts">All Posts</a></el-menu-item>
-    <el-menu-item index="2"><a href="homework2/#/posts/new">New Posts</a></el-menu-item>
+    <el-menu-item index="1"><a href="/homework2/#/posts">All Posts</a></el-menu-item>
+    <el-menu-item index="2"><a href="/homework2#/posts/new">New Posts</a></el-menu-item>
     <el-menu-item index="3"><el-button type="danger" @click.native="logOut">Log Out</el-button></el-menu-item>
   </el-menu>
   <!-- <div class="left-sidenav">
